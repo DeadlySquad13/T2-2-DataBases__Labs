@@ -1,0 +1,6 @@
+Use Sales;
+GO
+CREATE VIEW vOrders AS
+SELECT * FROM Orders
+WHERE  [Status] = 'C'
+WITH CHECK OPTION;

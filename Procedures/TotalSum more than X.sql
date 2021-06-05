@@ -1,0 +1,6 @@
+CREATE PROCEDURE Example
+@X Real AS
+SELECT *
+FROM Items
+WHERE
+Items.TotalSum>@X
